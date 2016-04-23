@@ -1,7 +1,5 @@
-(ns sicp.L4_A.patternMatcher)
-
-(defn atomic? [exp]
-  (not (or (list? exp) (seq? exp))))
+(ns sicp.L4_A.patternMatcher
+  (:require [sicp.L4_A.util :refer :all]))
 
 (defn isEmpty? [exp]
   (and (list? exp) (empty? exp)))
@@ -22,7 +20,6 @@
   (first (rest list)))
 
 (def make-empty-dictionary '())
-(def user-initial-environment '())
 
 (defn variable-name [pattern] (cadr pattern))
 
