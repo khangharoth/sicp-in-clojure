@@ -1,5 +1,4 @@
-(ns
-  L1.change)
+(ns sicp.L1.change)
 
 
 (defn first-denom [kinds-of-coins]
@@ -24,5 +23,3 @@
 (defn count-change [amount]
   (cc amount 5)
   )
-
-(println (count-change 100))

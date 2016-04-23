@@ -1,6 +1,4 @@
-(ns
-  ^{:author kuldeep}
-  L4_A.patternMatcher)
+(ns sicp.L4_A.patternMatcher)
 
 (defn atomic? [exp]
   (not (or (list? exp) (seq? exp))))
@@ -83,8 +81,4 @@
 
 
 
-;(def pat-1 '(+ (* (? x) (? y)) (? y)))
-;(def exp-1 '(+ (* 3 x) x))
-;
-;(println (evaluate '(+ x x) '((y x) (x 3))))
-;(println (match pat-1 exp-1 make-empty-dictionary))
+

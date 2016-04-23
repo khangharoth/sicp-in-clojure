@@ -1,4 +1,4 @@
-(ns L1.ackermann)
+(ns sicp.L1.ackermann)
 
 (defn ackmer [x y]
   (cond (= y 0) 0

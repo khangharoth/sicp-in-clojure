@@ -1,4 +1,4 @@
-package L1.java;
+package sicp.L1.java;
 
 
 public class Change {
