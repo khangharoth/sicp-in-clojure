@@ -1,5 +1,6 @@
-(ns L4_A.simplifier
-  (require [L4_A.patternMatcher :refer :all]))
+(ns sicp.L4_A.simplifier
+  (require [sicp.L4_A.util :refer :all]
+           [sicp.L4_A.patternMatcher :refer :all]))
 
 (defn deriv? [exp]
   (and (not (atomic? exp)) (= (first exp) 'dd)))
@@ -62,12 +63,12 @@
   (list (first exp) (simplify (second exp) simplify-parts) (simplify (second (rest exp)) simplify-parts))
   )
 
-(def poly '(dd (+ x y) x))
-(def poly1 '(+ (dd x x) (dd y x)))
-
-;;(+ (dd x x) (dd y x))
-
-(println (simplify poly simplify-parts))
-(println (simplify poly1 simplify-parts))
+;(def poly '(dd (+ x y) x))
+;(def poly1 '(+ (dd x x) (dd y x)))
+;
+;;;(+ (dd x x) (dd y x))
+;
+;(println (simplify poly simplify-parts))
+;(println (simplify poly1 simplify-parts))
 
 
