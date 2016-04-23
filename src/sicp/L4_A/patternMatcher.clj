@@ -1,8 +1,7 @@
 (ns sicp.L4_A.patternMatcher
   (:require [sicp.L4_A.util :refer :all]))
 
-(defn isEmpty? [exp]
-  (and (list? exp) (empty? exp)))
+
 
 (defn arbitrary-constant? [pattern]
   (if (list? pattern) (= (first pattern) '?c) false))

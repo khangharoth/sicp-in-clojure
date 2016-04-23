@@ -6,3 +6,10 @@
   (is (= false  (atomic? '(+ x x))))
   (is (= true  (atomic? 'x)))
   (is (= true  (atomic? '+))))
+
+(deftest isEmpty?-test
+  (is (= false  (isEmpty? '(+ x x))))
+  (is (= false  (isEmpty? 'x)))
+  (is (= false  (isEmpty? '+)))
+  (is (= true   (isEmpty? '())))
+  )

@@ -3,3 +3,6 @@
 
 (defn atomic? [exp]
   (not (or (list? exp) (seq? exp))))
+
+(defn isEmpty? [exp]
+  (and (list? exp) (empty? exp)))
