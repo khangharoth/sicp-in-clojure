@@ -6,3 +6,6 @@
 
 (defn isEmpty? [exp]
   (and (list? exp) (empty? exp)))
+
+(defn cadr [list]
+  (first (rest list)))

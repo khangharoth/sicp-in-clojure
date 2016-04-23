@@ -15,8 +15,7 @@
 (defn constant? [exp] (number? exp))
 (defn variable? [exp] (atomic? exp))
 
-(defn cadr [list]
-  (first (rest list)))
+
 
 (def make-empty-dictionary '())
 
