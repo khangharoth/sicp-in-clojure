@@ -9,3 +9,10 @@
 
 (defn cadr [list]
   (first (rest list)))
+
+(def make-empty-dictionary '())
+
+(defn assq [var dict]
+  (cond (= make-empty-dictionary dict) nil
+        (= (first (first dict)) var) (first dict)
+        :else (assq var (rest dict))))

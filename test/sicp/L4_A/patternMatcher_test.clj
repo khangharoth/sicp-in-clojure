@@ -1,5 +1,6 @@
 (ns sicp.L4-A.patternMatcher-test
   (:require [clojure.test :refer :all]
+            [sicp.L4_A.util :refer :all]
             [sicp.L4_A.patternMatcher :refer :all]))
 
 (def pat-1 '(+ (* (? x) (? y)) (? y)))
