@@ -1,5 +1,5 @@
 (ns
-  L2_A_highOrderProcedures.clojure.sqrtWithNetwonMethod
+  sicp.L2_A_highOrderProcedures.clojure.sqrtWithNetwonMethod
   (require [L0.math :refer :all]
            [L2.clojure.deriv :refer :all]
            [L2.clojure.fixedPoint :refer :all])

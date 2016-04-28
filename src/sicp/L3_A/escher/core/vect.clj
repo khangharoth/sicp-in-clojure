@@ -1,4 +1,4 @@
-(ns L3_A.escher.core.vect)
+(ns sicp.L3_A.escher.core.vect)
 
 (defstruct vect :x :y)
 

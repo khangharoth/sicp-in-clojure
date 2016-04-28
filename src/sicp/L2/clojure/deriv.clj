@@ -1,4 +1,4 @@
-(ns L2.clojure.deriv
+(ns sicp.L2.clojure.deriv
   (require [L0.math :refer :all])
   )
 

@@ -1,4 +1,4 @@
-(ns L2_A_highOrderProcedures.clojure.sqrt-by-fixed-point
+(ns sicp.L2_A_highOrderProcedures.clojure.sqrt-by-fixed-point
   (require [L2.clojure.fixedPoint :refer :all]
            [L0.math :refer :all])
   )

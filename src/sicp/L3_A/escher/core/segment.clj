@@ -1,4 +1,4 @@
-(ns L3_A.escher.core.segment
+(ns sicp.L3_A.escher.core.segment
   (:use :reload-all [L3_A.escher.core.vect] [L3_A.escher.core.rectangle]))
 
 (defstruct segment :seg-start :seg-end)

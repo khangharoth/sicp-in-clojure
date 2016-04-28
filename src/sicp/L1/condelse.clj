@@ -1,4 +1,4 @@
-(ns L1.condelse)
+(ns sicp.L1.condelse)
 
 
 (defn abs [x]

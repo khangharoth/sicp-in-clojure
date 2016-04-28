@@ -1,5 +1,5 @@
 (ns
-  L2.clojure.avgDamp
+  sicp.L2.clojure.avgDamp
   (require [L0.math :refer :all])
   )
 

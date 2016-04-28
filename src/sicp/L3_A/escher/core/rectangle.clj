@@ -1,4 +1,4 @@
-(ns L3_A.escher.core.rectangle
+(ns sicp.L3_A.escher.core.rectangle
   (:use :reload-all [L3_A.escher.core.vect]))
 
 (defstruct rectangle :origin :horiz :vert :graphics)

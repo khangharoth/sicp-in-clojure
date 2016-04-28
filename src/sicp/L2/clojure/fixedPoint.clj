@@ -1,4 +1,4 @@
-(ns L2.clojure.fixedPoint
+(ns sicp.L2.clojure.fixedPoint
   (require [L0.math :refer :all]))
 
 

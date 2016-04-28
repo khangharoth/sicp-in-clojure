@@ -1,4 +1,4 @@
-(ns L3_A.eschermain
+(ns sicp.L3_A.eschermain
   (:gen-class))
 
 (use 'L3_A.escher.core.launch)

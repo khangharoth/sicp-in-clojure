@@ -1,4 +1,4 @@
-(ns L1.factorial)
+(ns sicp.L1.factorial)
 
 
 (defn factorialRecur [x]

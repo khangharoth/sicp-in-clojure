@@ -1,5 +1,5 @@
-(ns L1.findPrime
-  (require [L0.math :refer :all])
+(ns sicp.L1.findPrime
+  (require [sicp.L0.math :refer :all])
   )
 
 (defn divides? [divisor number]

@@ -1,2 +1,2 @@
 (ns
-  L0.math-calculus)
+  sicp.L0.math-calculus)

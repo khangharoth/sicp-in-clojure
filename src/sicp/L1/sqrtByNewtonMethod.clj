@@ -1,5 +1,5 @@
-(ns L1.sqrtByNewtonMethod
-  (require [L0.math :refer :all]))
+(ns sicp.L1.sqrtByNewtonMethod
+  (require [sicp.L0.math :refer :all]))
 
 (defn close-enf? [x y]
   (< (abs (- x y)) 0.001)

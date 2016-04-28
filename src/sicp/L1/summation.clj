@@ -1,5 +1,5 @@
-(ns L1.summation
-  (require [L0.math :refer :all])
+(ns sicp.L1.summation
+  (require [sicp.L0.math :refer :all])
   )
 
 

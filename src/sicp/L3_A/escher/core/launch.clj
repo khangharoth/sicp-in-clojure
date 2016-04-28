@@ -1,4 +1,4 @@
-(ns L3_A.escher.core.launch
+(ns sicp.L3_A.escher.core.launch
   (:use
     :reload-all
     [L3_A.escher.core.rectangle]

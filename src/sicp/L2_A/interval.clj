@@ -1,5 +1,5 @@
-(ns L2_A.intervalArith.interval
-  (require [L0.math :refer :all]))
+(ns sicp.L2_A.intervalArith.interval
+  (require [sicp.L0.math :refer :all]))
 
 
 (defn make-interval [a b]

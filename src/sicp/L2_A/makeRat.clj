@@ -1,4 +1,4 @@
-(ns L2_A.rational.clojure.makeRat
+(ns sicp.L2_A.rational.clojure.makeRat
   (require [L0.math :refer :all]))
 
 (defn make-rat [n d]

@@ -1,5 +1,5 @@
-(ns L1.letUseage
-  (require [L0.math :refer :all])
+(ns sicp.L1.letUseage
+  (require [sicp.L0.math :refer :all])
   )
 
 

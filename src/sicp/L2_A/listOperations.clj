@@ -1,5 +1,5 @@
 (ns
-  L2_A.clojure.listOperations)
+  sicp.L2_A.listOperations)
 
 (def one-To-Four (list 1 2 3 4))
 

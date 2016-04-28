@@ -1,4 +1,4 @@
-(ns L3_A.escher.core.artwork
+(ns sicp.L3_A.escher.core.artwork
   (:use
     :reload-all
     [L3_A.escher.core.rectangle]

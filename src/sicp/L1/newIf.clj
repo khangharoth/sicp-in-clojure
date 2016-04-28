@@ -1,6 +1,5 @@
 (ns
-  ^{:author kuldeep}
-  L1.newIf)
+  sicp.L1.newIf)
 
 
 

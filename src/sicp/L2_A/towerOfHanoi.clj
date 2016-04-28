@@ -1,6 +1,5 @@
 (ns
-  ^{:author kuldeep}
-  L2.towerOfHanoi)
+  sicp.L2.towerOfHanoi)
 
 (defn moveTwo [FROM TO Via]
   (println (format "move 1 from %s %s " FROM Via))

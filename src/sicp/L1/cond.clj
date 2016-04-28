@@ -1,4 +1,4 @@
-(ns L1.cond)
+(ns sicp.L1.cond)
 
 
 

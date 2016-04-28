@@ -1,5 +1,4 @@
-(ns
-  ^{:author kuldeep} L3_B.derivOfExp)
+(ns sicp.L3_B.derivOfExp)
 
 (defn atomic? [exp]
   (not (list? exp)))

@@ -1,4 +1,4 @@
-(ns L3_A.escher.core.picture
+(ns sicp.L3_A.escher.core.picture
   (:import java.awt.geom.Line2D
            java.awt.Color)
   (:use :reload-all
