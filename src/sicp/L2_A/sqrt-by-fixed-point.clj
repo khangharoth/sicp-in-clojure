@@ -1,5 +1,5 @@
 (ns sicp.L2_A.sqrt-by-fixed-point
-  (require [sicp.L2.clojure.fixedPoint :refer :all]
+  (require [sicp.L2.fixedPoint :refer :all]
            [sicp.L0.math :refer :all])
   )
 

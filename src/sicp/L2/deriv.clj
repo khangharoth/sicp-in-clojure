@@ -1,5 +1,5 @@
-(ns sicp.L2.clojure.deriv
-  (require [L0.math :refer :all])
+(ns sicp.L2.deriv
+  (require [sicp.L0.math :refer :all])
   )
 
 (def dx 0.000000001)

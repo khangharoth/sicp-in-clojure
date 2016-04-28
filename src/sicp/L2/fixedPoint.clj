@@ -1,5 +1,5 @@
-(ns sicp.L2.clojure.fixedPoint
-  (require [L0.math :refer :all]))
+(ns sicp.L2.fixedPoint
+  (require [sicp.L0.math :refer :all]))
 
 
 (defn close-enf? [oldValue newValue]
