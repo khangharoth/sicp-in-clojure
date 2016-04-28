@@ -1,6 +1,6 @@
 (ns
-  sicp.L2_A.rational.clojure.operations
-  (require [L2_A.rational.clojure.makeRat :refer :all])
+  sicp.L2_A.operations
+  (require [sicp.L2_A.makeRat :refer :all])
   )
 
 

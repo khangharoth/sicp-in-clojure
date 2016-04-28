@@ -1,5 +1,5 @@
-(ns L2_A.intervalArith.interval-op
-  (require [L2_A.intervalArith.interval :refer :all]))
+(ns sicp.L2_A.interval-op
+  (require [sicp.L2_A.intervalArith.interval :refer :all]))
 
 
 (defn par1 [r1 r2]

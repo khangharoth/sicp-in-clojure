@@ -1,4 +1,4 @@
-(ns sicp.L1.highOrderFunction
+(ns sicp.L2_A.highOrderFunction
   (require [sicp.L0.math :refer :all])
   )
 

@@ -1,4 +1,4 @@
-(ns sicp.L2_A.intervalArith.interval
+(ns sicp.L2_A.interval
   (require [sicp.L0.math :refer :all]))
 
 

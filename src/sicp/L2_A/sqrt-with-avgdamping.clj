@@ -1,8 +1,8 @@
 (ns
-  sicp.L2_A_highOrderProcedures.clojure.sqrt-with-avgdamping
-  (require [L2.clojure.avgDamp :refer :all]
-           [L2.clojure.fixedPoint :refer :all]
-           [L0.math :refer :all])
+  sicp.L2_A.sqrt-with-avgdamping
+  (require [sicp.L2.avgDamp :refer :all]
+           [sicp.L2.fixedPoint :refer :all]
+           [sicp.L0.math :refer :all])
   )
 
 
