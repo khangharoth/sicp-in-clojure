@@ -14,6 +14,3 @@
     )
   (iter x (fn x))
   )
-
-
-(println (fixedPoint (fn [x] (+ x (/ 1 x))) 10.0))
