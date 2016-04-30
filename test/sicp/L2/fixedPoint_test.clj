@@ -4,6 +4,6 @@
             [sicp.L2.fixedPoint :refer :all]))
 
 
-(deftest fixedPoint-test
-  (is (close? 1 (fixedPoint (fn [x] (+ x (/ 1 x))) 10.0) 125.0))
-  )
+;(deftest fixedPoint-test
+;  (is (close? 1 (fixedPoint (fn [x] (+ x (/ 1 x))) 10.0) 125.0))
+;  )
