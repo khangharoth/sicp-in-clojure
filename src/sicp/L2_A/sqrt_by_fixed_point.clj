@@ -1,4 +1,4 @@
-(ns sicp.L2_A.sqrt-by-fixed-point
+(ns sicp.L2_A.sqrt_by_fixed_point
   (require [sicp.L2.fixedPoint :refer :all]
            [sicp.L0.math :refer :all])
   )

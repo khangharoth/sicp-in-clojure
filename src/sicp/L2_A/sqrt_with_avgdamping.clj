@@ -1,5 +1,5 @@
 (ns
-  sicp.L2_A.sqrt-with-avgdamping
+  sicp.L2_A.sqrt_with_avgdamping
   (require [sicp.L2.avgDamp :refer :all]
            [sicp.L2.fixedPoint :refer :all]
            [sicp.L0.math :refer :all])

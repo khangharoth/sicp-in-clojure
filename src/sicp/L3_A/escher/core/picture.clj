@@ -2,9 +2,9 @@
   (:import java.awt.geom.Line2D
            java.awt.Color)
   (:use :reload-all
-        [L3_A.escher.core.segment]
-        [L3_A.escher.core.rectangle]
-        [L3_A.escher.core.vect]))
+        [sicp.L3_A.escher.core.segment]
+        [sicp.L3_A.escher.core.rectangle]
+        [sicp.L3_A.escher.core.vect]))
 
 (defn drawline [p1 p2 g]
   (.drawLine g (:x p1) (:y p1) (:x p2) (:y p2)))

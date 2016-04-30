@@ -1,10 +1,10 @@
 (ns sicp.L3_A.escher.core.artwork
   (:use
     :reload-all
-    [L3_A.escher.core.rectangle]
-    [L3_A.escher.core.vect]
-    [L3_A.escher.core.picture]
-    [L3_A.escher.core.segment]
+    [sicp.L3_A.escher.core.rectangle]
+    [sicp.L3_A.escher.core.vect]
+    [sicp.L3_A.escher.core.picture]
+    [sicp.L3_A.escher.core.segment]
     ))
 
 

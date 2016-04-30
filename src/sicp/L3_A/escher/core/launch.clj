@@ -1,9 +1,9 @@
 (ns sicp.L3_A.escher.core.launch
   (:use
     :reload-all
-    [L3_A.escher.core.rectangle]
-    [L3_A.escher.core.artwork]
-    [L3_A.escher.core.segment]
+    [sicp.L3_A.escher.core.rectangle]
+    [sicp.L3_A.escher.core.artwork]
+    [sicp.L3_A.escher.core.segment]
     ))
 
 (import '(javax.swing JFrame JPanel))
