@@ -7,6 +7,3 @@
         :else (ackmer (- x 1) (ackmer x (- y 1)))
         )
   )
-
-
-(println (ackmer 3 3))
