@@ -1,6 +1,6 @@
 (ns sicp.L2.fixedPoint-test
   (:require [clojure.test :refer :all]
-            [sicp.util :refer :all]
+            [sicp.L0.util :refer :all]
             [sicp.L2.fixedPoint :refer :all]))
 
 ;
