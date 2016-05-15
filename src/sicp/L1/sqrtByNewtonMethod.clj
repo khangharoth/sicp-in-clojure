@@ -7,7 +7,7 @@
   (average guess (/ x guess)))
 
 (defn sqrt-iter [guess x]
-  (if (close-enf? 0.01 (square guess) x) guess
+  (if (close-enf?  (square guess) x) guess
                                          (sqrt-iter (improve guess x) x)))
 
 (defn sqrt [x]
