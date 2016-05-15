@@ -5,5 +5,5 @@
 
 
 (deftest fixedPoint-test
-  (is (close? 1 (fixedPoint (fn [x] (+ x (/ 1 x))) 10.0) 125.0))
+  (is true (close? 1.0 125.0 (fixedPoint (fn [x] (+ x (/ 1 x))) 10.0) ))
   )
